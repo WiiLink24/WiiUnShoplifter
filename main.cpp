@@ -32,8 +32,6 @@ int main() {
   std::cout << std::endl;
   std::cout << std::endl;
 
-  WII_LaunchTitle(0x0001000157554e09);
-
   u32 num_owned{};
   int res = ES_GetNumOwnedTitles(&num_owned);
   if (res < 0) {
